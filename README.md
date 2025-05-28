@@ -11,3 +11,14 @@ MAX(o.order_date) as last_sold_date
 LEFT JOIN orders o ON 
 p.product_id  = o.product_id
 GROUP BY o.product_id;  
+
+# Warehouse + Banking Hybrid Dashboard (Tableau)
+
+This Tableau project simulates a business like Amazon + Chime. It includes:
+
+- Top-selling products in last 60 days
+- Overstock risk analysis (low sales, high inventory)
+- Sales trend over time
+- Sales by category
+
+Built with SQL + Tableau, using real-world business questions to showcase analytical and dashboard skills.
